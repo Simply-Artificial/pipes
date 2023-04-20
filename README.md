@@ -1,5 +1,4 @@
 # Simply Artificial's transformer pipelines
 
 > **Note**
-
-> ...to be completed
+> README to be completed
