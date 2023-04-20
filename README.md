@@ -1,3 +1,4 @@
 # Simply Artificial's transformer pipelines
-> NOTE
+
+> **Note**
 > ...to be completed
