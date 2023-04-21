@@ -7,4 +7,8 @@ except ImportError:
         "Please find your respective installation command at https://pytorch.org/get-started/locally/"
     )
 
-__all__ = []
+__all__ = [
+    "BetterConversation"
+]
+
+from .BetterConversations import BetterConversation
