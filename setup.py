@@ -10,6 +10,7 @@ setup(
     license='MIT',
     packages=[
         'pipes'
+        'pipes.SADispatch'
     ],
     install_requires=open('requirements.txt').read().splitlines(),
 
