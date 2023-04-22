@@ -7,8 +7,22 @@ except ImportError:
         "Please find your respective installation command at https://pytorch.org/get-started/locally/"
     )
 
-__all__ = [
-    "BetterConversation"
-]
+from pipes.BetterConversations import BetterConversation
+from pipes.SADispatch import (
+    SADispatchPathway,
+    SADispatchPathingCollection,
+    SADispatchKeywordDetection,
+    SADispatchQuestionDetection,
+    get_synonyms,
+    SADispatchPipeline
+)
 
-from .BetterConversations import BetterConversation
+__all__ = [
+    "BetterConversation",
+    "SADispatchPathway",
+    "SADispatchPathingCollection",
+    "SADispatchKeywordDetection",
+    "SADispatchQuestionDetection",
+    "get_synonyms",
+    "SADispatchPipeline"
+]
